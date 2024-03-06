@@ -248,7 +248,30 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     }
 }
+@media (max-width: 500px) {
+    .infocontainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 12rem;
+    }
+    .devpic img {
+        width: 100%;
+        height: 50vh;
+        aspect-ratio: 1/1;
+    }
 
+    .icon{
+    position: relative;
+    bottom: -92px;
+}
+
+}
+@media(max-width: 680px) {
+    .cross{
+        display: flex;
+        margin-left: 83px;
+    }
+}
 .intro,
 .blogcontainer,
 .contactform {
